@@ -1,0 +1,491 @@
+/*.................................header baner....................................................*/
+/*.................................header baner....................................................*/
+ .butt {
+     text-transform: capitalize;
+     margin-top: 40px;
+     color: white;
+     font-size: 20px;
+     background-color: rgb(118, 35, 185);
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-left: 100px;
+     padding-right: 100px;
+     outline-style: none;
+     border-style: none;
+ }
+
+ .main-head {
+     color: rgb(255, 255, 255);
+     text-transform: capitalize;
+     opacity: 80%;
+     text-align: center;
+     font-size: 40px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     ;
+ }
+
+ .s {
+     color: white;
+     margin-top: -20px;
+     font-size: 30px;
+     text-align: center;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+ }
+
+ .fr {
+     color: rgb(113, 19, 156);
+ }
+
+ .main-section {
+     position: relative;
+     width: 100%;
+     min-height: 300px;
+     background-image: url(joshua-aragon-FGXqbqbGt5o-unsplash.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ h1 {
+     font-size: 27px;
+     opacity: 90%;
+     color: rgb(57, 22, 114);
+     text-transform: capitalize;
+     font-family: -apple-system,
+         BlinkMacSystemFont,
+         'Segoe UI',
+         Roboto,
+         Oxygen,
+         Ubuntu,
+         Cantarell,
+         'Open Sans',
+         'Helvetica Neue',
+         sans-serif;
+ }
+/*.................................blog header....................................................*/
+/*.................................blog header....................................................*/
+.blog-header {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.blog-h1{
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(36, 16, 54);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+ 
+
+ /*.................................blog....................................................*/
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+.talk {
+    min-width: 350px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+:hover.talk {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    transition: 0.6s;
+}
+
+.pp {
+    opacity: 70%;
+    padding-left: 17px;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.img {
+    width: 100%;
+}
+.hb {
+    padding-left: 20px;
+}
+
+.pp-img {
+    position: absolute;
+}
+
+.pp2 {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.hh {
+    font-size: 130%;
+    text-transform: capitalize;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:hover.hh {
+    color: rgb(95, 48, 156);
+    transition: 0.6s;
+}
+.hb{
+        padding-left: 10px;
+    }
+     .pp-img{
+    position: absolute;
+    }
+    .pp2{
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+    .hh{
+        font-size: 130%;
+        text-transform: capitalize;
+        padding-left: 10px;
+        padding-bottom: 25px;
+        padding-right: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    :hover.hh {
+        color: rgb(95, 48, 156);
+        transition: 0.6s;
+    }
+/*.................................main-blog-GRID(bu ID)....................................................*/
+#div {
+    padding-top: 30px;
+    display: grid;
+    grid-template-rows: repeat(3);
+    grid-template-columns: repeat(4);
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+#d-1 {
+    grid-area: 1/1/2/2;
+}
+
+#d-2 {
+    grid-area: 1/2/2/3;
+}
+
+#d-3 {
+    grid-area: 1/3/2/4;
+}
+
+#d-4 {
+    grid-area: 2/1/3/2;
+}
+
+#d-5 {
+    grid-area: 2/2/3/3;
+}
+
+#d-6 {
+    grid-area: 2/3/3/4;
+}
+/*..................................pagination....................................................*/
+/*..................................pagination-....................................................*/
+.pagination a {
+    opacity: 50%;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    opacity: 100%;
+    background-color: rgb(92, 53, 155);
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: rgb(182, 171, 245);
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+ /* ----------- iPhone 4 and 4S ----------- */
+
+ /* Portrait and Landscape */
+ @media only screen and (min-device-width: 220px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)
+ {
+/*.................................header baner....................................................*/
+.hh{
+    padding-left: 30px;
+}
+.pp{
+    padding-left: 30px;
+}
+.pp-img{
+    padding-left: 10px;
+}
+.butt {
+    margin-top: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+
+.main-head {
+    font-size: 30px;
+}
+
+.s {
+    margin-top: -20px;
+    font-size: 20px;
+    
+}
+
+.fr {
+    color: rgb(113, 19, 156);
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    background: url(http://127.0.0.1:5500/image%201.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 27px;
+    opacity: 90%;
+    color: rgb(57, 22, 114);
+    text-transform: capitalize;
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        'Open Sans',
+        'Helvetica Neue',
+        sans-serif;
+}
+/*.................................main-blog-GRID(bu ID)....................................................*/
+     #div{
+         display: block;
+         padding-top: 10px;
+     }
+     .talk {
+         min-width: 100px;
+         border-radius: 5px;
+         background-color: rgb(255, 255, 255);
+         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+         
+     }
+     .center {
+         display: flex;
+         justify-content: center;
+         padding-right: 20px;
+         padding-left: 20px;
+     }
+     /*..................................pagination-....................................................*/
+     .pagination a {
+         opacity: 50%;
+         font-size: 15px;
+         font-weight: 700;
+         color: black;
+         float: left;
+         padding: 8px 16px;
+         border-radius: 5px;
+         text-decoration: none;
+         transition: background-color .3s;
+     }
+
+ }
+  @media only screen and (min-device-width: 600px) and (max-device-width: 600px)
+  {
+      #div {
+          padding-top: 30px;
+          display: grid;
+          grid-template-rows: repeat(4);
+          grid-template-columns: repeat(3);
+          column-gap: 15px;
+          row-gap: 15px;
+      }
+
+      #d-1 {
+          grid-area: 1/1/2/2;
+      }
+
+      #d-2 {
+          grid-area: 1/2/2/3;
+      }
+
+      #d-3 {
+          grid-area: 2/1/3/2;
+      }
+
+      #d-4 {
+          grid-area: 2/2/3/3;
+      }
+
+      #d-5 {
+          grid-area: 3/1/4/2;
+      }
+
+      #d-6 {
+          grid-area: 3/2/4/3;
+      }
+
+      .center {
+          padding-right: 30px;
+          padding-left: 30px;
+      }
+
+        .talk {
+            min-width: 300px;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+
+        }
+  }
+ /* ----------- iPad 1, 2, Mini and Air ----------- */
+
+ /* Portrait and Landscape */
+ @media only screen and (min-device-width: 766px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1)
+ {
+   #div {
+       padding-top: 30px;
+       display: grid;
+       grid-template-rows: repeat(4);
+       grid-template-columns: repeat(3);
+       column-gap: 15px;
+       row-gap: 15px;
+   }
+
+   #d-1 {
+       grid-area: 1/1/2/2;
+   }
+
+   #d-2 {
+       grid-area: 1/2/2/3;
+   }
+
+   #d-3 {
+       grid-area: 2/1/3/2;
+   }
+
+   #d-4 {
+       grid-area: 2/2/3/3;
+   }
+
+   #d-5 {
+       grid-area: 3/1/4/2;
+   }
+
+   #d-6 {
+       grid-area:3/2/4/3;
+   }
+   .center {
+       padding-right: 30px;
+       padding-left: 30px;
+   }
+
+     .talk {
+         min-width: 300px;
+         border-radius: 5px;
+         background-color: rgb(255, 255, 255);
+         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+
+     }
+ }
+ /*.............laptops*/
+ /*.............laptops*/
+ /*.............laptops*/
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1)
+  {
+       section {
+           position: relative;
+           width: 100%;
+           min-height: 500px;
+           background: url(http://127.0.0.1:5500/image%201.png);
+           background-size: cover;
+           background-repeat: no-repeat;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+
+
+
+
+    #div {
+        
+        padding-top: 30px;
+        display: grid;
+        grid-template-rows: repeat(3);
+        grid-template-columns: repeat(4);
+        column-gap: 15px;
+        row-gap: 15px;
+    }
+
+    #d-1 {
+        grid-area: 1/1/2/2;
+    }
+
+    #d-2 {
+        grid-area: 1/2/2/3;
+    }
+
+    #d-3 {
+        grid-area: 1/3/2/4;
+    }
+
+    #d-4 {
+        grid-area: 2/1/3/2;
+    }
+
+    #d-5 {
+        grid-area: 2/2/3/3;
+    }
+
+    #d-6 {
+        grid-area: 2/3/3/4;
+    }
+    .center {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .talk {
+        width: 300px;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+
+        }
+  }
